@@ -162,3 +162,13 @@ document.getElementById("nome").addEventListener('keyup', function(i){
     entrar();
 }
 })
+
+function sairTelaParticipantes(){
+    document.querySelector(".participantes_escuro").classList.add("escondido");
+}
+function telaParticipantes(){
+    document.querySelector(".participantes_escuro").classList.remove("escondido");
+}
+
+
+
